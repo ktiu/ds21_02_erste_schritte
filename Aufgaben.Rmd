@@ -1,0 +1,85 @@
+---
+title: "Aufgaben Sitzung 2"
+date: 9. November 2020
+---
+
+# Rechnen
+
+Lösen Sie folgende Rechenaufgaben mit Hilfe von R:
+
+- 4 plus 10
+- 8 mal 12
+- 4 minus 7
+- 3 hoch 18
+- 4,5 geteilt durch die Summe von 5 und 8
+- Quadratwurzel aus 101
+- Kubikwurzel aus 12
+
+```{r}
+
+```
+
+# Variablen
+
+Weisen Sie den Variablen a bis g folgende Werte zu:
+
+a) TRUE
+b) 2
+c) Ihren Namen
+d) Die Quadratwurzel aus b
+e) 8 $\textstyle\frac{1}{4}$
+f) Das vierfache von e
+g) Die aktuelle Uhrzeit mit Datum und Zeitzone (automatisch generiert)
+
+```{r}
+
+```
+
+# Datentypen
+
+Bestimmen Sie die Typen der Variablen a bis g.
+
+Finden Sie je zwei Beispiele für die Umwandlung...
+
+- von `numeric` zu `character`
+- von `numeric` zu `logical`
+- von `character` zu `logical`
+- von `character` zu `numeric`
+- von `logical` zu `character`
+- von `logical` zu `numeric`
+- von `character` zu `Date`
+- von `Date` zu `numeric`
+
+(`Date` ist kein eigentlicher Datentyp, aber erfüllt an dieser Stelle denselben Zweck.)
+
+```{r}
+
+```
+
+# Swirl
+
+Folgen Sie den Anleitungen, um Swirl zu installieren: https://swirlstats.com/students.html
+
+Absolvieren Sie Lektion 1 („Basic Building Blocks“).
+
+# Recherche
+
+Recherchieren Sie:
+
+- Welche Funktion gibt den absoluten Wert einer Zahl aus? (z.B. -4 ergibt 4, 8 ergibt 8)
+- Welche Konstanten sind in R „eingebaut“?
+- Wie bestimmt man den „Rest“ einer Division? (z.B. 40 geteilt durch 7 hat den Rest 5)
+- In der Statistik wird zwischen stetigen und diskreten Variablen unterschieden. Welche äquivalente Unterscheidung nimmt R vor?
+
+# Kniffliges
+
+Lösen Sie die folgenden Probleme:
+
+- Durch welchen Ausdruck lässt sich eine Zahl auf die nächste *gerade* Zahl runden? (z.B. 18,9 auf 18,0 oder 21,2 auf 22,0)
+- Durch welchen Ausdruck lässt sich eine Zahl auf die nächste *halbe* Zahl abrunden? (z.B. 18,9 auf 18,5 oder 21,2 auf 21,0)
+- Absolvieren Sie in die Lektion 8 („Logic“).
+- Machen Sie sich mit der Funktion `xor()` vertraut. Finden Sie einen Ausdruck, der `xor()` simuliert, aber nur aus Infix-Operatoren besteht.
+- Was bedeutet „strong“ bzw „weak typing“? Wie ist R hier einzuordnen?
+- Was sind funktionale Programmiersprachen? Welche Eigenschaften von R sind funktional, welche nicht?
+- Starten Sie den R Track in [Excercism](https://exercism.io/)
+- Richten Sie sich ein IDE *außer* RStudio für einen R Workflow ein.
